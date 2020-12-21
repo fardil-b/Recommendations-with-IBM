@@ -1,10 +1,17 @@
-# Recommendations-with-IBM (In Progress.............
+# Recommendations-with-IBM
 Build a Recommendation Engine-  based on user behavior and social network in IBM Watson Studio’s data platform
 
-### Motivation
-IBM has an online data science community where members can post tutorials, notebooks, articles, and datasets. For this project I will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles I think they will like. Below you can see an example of what the dashboard could look like displaying articles on the IBM Watson Platform.
-![image](https://user-images.githubusercontent.com/61830624/101041964-ef2f3f80-357c-11eb-9181-0ac7093eefa9.png)
+### Table of Contents
 
+1.  [Project Motivation](#motivation)
+2.  [Methods Used](#method)
+3. [Installation](#installation)
+4. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## Project Motivation<a name="motivation"></a>
+IBM has an online data science community where members can post tutorials, notebooks, articles, and datasets. For this project I will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles I think they will like. Below you can see an example of what the dashboard could look like displaying articles on the IBM Watson Platform.
+
+## Methods Used <a name="method"></a>
 ### Tasks
 This project will be divided into the following tasks
 
@@ -27,3 +34,19 @@ Given the amount of content available for each article, there are a number of di
 ### V. Matrix Factorization
 
 Finally, you will complete a machine learning approach to building recommendations. Using the user-item interactions, you will build out a matrix decomposition. Using your decomposition, you will get an idea of how well you can predict new articles an individual might interact with (spoiler alert - it isn't great). You will finally discuss which methods you might use moving forward, and how you might test how well your recommendations are working for engaging users.
+
+
+## Installation <a name="installation"></a>
+You need an installation of Python, plus the following libraries:
+
+numpy
+pandas
+matplotlib.pyplot
+pickle
+call
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+Must give credit to IBM and Udacity for the data. 
+
+
+
